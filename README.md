@@ -13,7 +13,7 @@
 - **Added** countdown to stop OTP spam
 
 ### Documentation:
-- [DAVIS Docs](https://davis-docs.vercel.app)
+- [DAVIS Docs](https://davis-bot.vercel.app/)
 
 ### Support:
 - Discord Server -> [Join Here](https://discord.gg/CaFh9TbCTb)
