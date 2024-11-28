@@ -1,2 +1,29 @@
 # D.A.V.I.S
-This is the final build of Discord Authentication &amp; Verification Integrated System. This includes the updates from DEVS (old name). This build comes with new rate limiting system, new stylized email format and docs for setting it up.
+## Discord Authentication &amp; Verification Integrated System
+
+**Changelog:**
+_-> Changed bot base to MicroBase(v9)
+-> Changed email format to a more cleaner one
+-> Changed logging system to use better-sqlite3
+-> Changed database from sqlite/sqlite3 to better-sqlite3_
+
+_-> Added a much more cleaner setup command
+-> Added rate limit to stop spam
+-> Added email locking system to stop spam
+-> Added countdown to stop otp spam_
+
+**Documentation:** [DAVIS Docs](https://davis-docs.vercel.app)
+
+**Support:**
+Discord Server -> [Join Here](https://discord.gg/CaFh9TbCTb)
+Discord ID -> [DM Here](https://discord.com/users/1023172721141624832)
+
+**DEVS (Beta):** [v0.1 Beta](https://github.com/toohiggh/devs-beta)
+
+**Utilities Used:**
+-> [Node.js](https://nodejs.org/en)
+-> [Discord.js](https://discord.js.org/)
+-> [MicroBase](https://github.com/MusicMakerOwO/MicroBase/)
+
+**My Last Words:**
+This project was a time-pass project. The amount of work spent on this is very low and does not justify this update. I am dropping this project because of the new discord account recovery changes as this can be used in a harmful way. Feel free to use this code publicly! Don't forget the credits though haha.
