@@ -5,7 +5,7 @@ const { checkEmailRateLimit, checkEmailLock, lockEmail } = require('../utils/rat
 const { db } = require('../utils/rateLimiter'); // Ensure the database is imported
 
 module.exports = {
-    customID: 'enterEmail',
+    customId: 'enterEmail',
 
     async execute(interaction) {
         const emailModal = new ModalBuilder()
