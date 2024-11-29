@@ -9,7 +9,7 @@ module.exports = {
 
     async execute(interaction) {
         const emailModal = new ModalBuilder()
-            .setCustomId('emailModal')
+            .setCustomID('emailModal')
             .setTitle('Enter Your Email');
 
         const emailInput = new TextInputBuilder()
