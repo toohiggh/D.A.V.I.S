@@ -14,6 +14,7 @@
 
 ### Documentation:
 - [DAVIS Docs](https://davis-bot.vercel.app/)
+- [Password Tutorial](<https://www.youtube.com/watch?v=hGoaVus0-Mg>)
 
 ### Support:
 - Discord Server -> [Join Here](https://discord.gg/CaFh9TbCTb)
