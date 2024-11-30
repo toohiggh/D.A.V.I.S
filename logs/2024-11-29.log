@@ -1,0 +1,15 @@
+[ Shard 0 - INFO  ] [2024-11-29 22:33:14] Loaded 1 context
+[ Shard 0 - INFO  ] [2024-11-29 22:33:14] Loaded 4 commands
+[ Shard 0 - INFO  ] Duplicate rows removed from email_attempts table.
+[ Shard 0 - INFO  ] Unique constraint added to userId.
+[ Shard 0 - ERROR ] [BUTTONS] Failed to load ./buttons/enteremail.js: No custom ID has been set
+[ Shard 0 - INFO  ] [2024-11-29 22:33:14] Loaded 5 buttons
+[ Shard 0 - INFO  ] [2024-11-29 22:33:14] Loaded 1 menus
+[ Shard 0 - INFO  ] [2024-11-29 22:33:14] Loaded 0 modals
+[ Shard 0 - INFO  ] [2024-11-29 22:33:14] Loaded 0 messages
+[ Shard 0 - INFO  ] [2024-11-29 22:33:14] Loaded 3 events
+[ Shard 0 - INFO  ] [2024-11-29 22:33:14] Logging in...
+[ Shard 0 - INFO  ] [2024-11-29 22:33:16] Logged in as DAVIS#2336!
+[ Shard 0 - INFO  ] [2024-11-29 22:33:41] [RELOAD] Successfully reloaded buttons/enteremail.js
+[ Shard 0 - INFO  ] [2024-11-29 22:34:3] SIGINT: Exiting...
+[ Shard 0 - ERROR ] Shard 0 exited with code 0

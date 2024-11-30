@@ -8,9 +8,9 @@ const { sendOtpEmail } = require('../utils/emailService');
 const { generateOtp, verifyOtp } = require('../utils/otpGenerator');
 
 // Button and modal handlers for email verification
-const { customId: enterEmailCustomId, handleModal: handleEnterEmailModal } = require('../buttons/enterEmail');
-const { customId: verifyOTPCustomId, handleModal: handleVerifyOTPModal } = require('../buttons/verifyOTP');
-const { customId: supportCustomId } = require('../buttons/support');
+const { customID: enterEmailCustomId, handleModal: handleEnterEmailModal } = require('../buttons/enterEmail');
+const { customID: verifyOTPCustomId, handleModal: handleVerifyOTPModal } = require('../buttons/verifyOTP');
+const { customID: supportCustomId } = require('../buttons/support');
 
 function createCollector() {
 	return new Collector(this.client, this);
@@ -104,7 +104,7 @@ async function InteractionHandler(client, interaction, type) {
 	}
 
 	if ('defer' in component && component.defer !== null) {
-		await interaction.deferReply({ ephemeral: component.defer }).catch(() => {});
+		await interaction.deferReply({ ephemeral: component.defer }).catch(() => { });
 	}
 
 	try {
@@ -128,7 +128,7 @@ async function InteractionHandler(client, interaction, type) {
 		await interaction.deferReply({ ephemeral: true }).catch(() => { });
 		await interaction.editReply({
 			content: response
-		}).catch(() => {});
+		}).catch(() => { });
 		client.logs.error(`Blocked user from ${type}: ${reason}`);
 		return;
 	}
@@ -150,6 +150,6 @@ async function InteractionHandler(client, interaction, type) {
 			embeds: [],
 			components: [],
 			files: [],
-		}).catch(() => {});
+		}).catch(() => { });
 	}
 }
